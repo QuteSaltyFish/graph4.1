@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		18D9C9EA21D3D6720040B14B /* graph4.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = graph4.1; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D9C9ED21D3D6720040B14B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		18D9C9F421D3D6A10040B14B /* adjListGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adjListGraph.h; sourceTree = "<group>"; };
+		18D9C9F521D3D6A10040B14B /* adjMatrixGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adjMatrixGraph.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,8 @@
 		18D9C9EC21D3D6720040B14B /* graph4.1 */ = {
 			isa = PBXGroup;
 			children = (
+				18D9C9F421D3D6A10040B14B /* adjListGraph.h */,
+				18D9C9F521D3D6A10040B14B /* adjMatrixGraph.h */,
 				18D9C9ED21D3D6720040B14B /* main.cpp */,
 			);
 			path = graph4.1;
